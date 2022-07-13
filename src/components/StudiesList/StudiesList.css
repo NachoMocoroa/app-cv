@@ -1,0 +1,55 @@
+.double-list {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0 0 0 0.5rem;
+}
+
+.double-list .double-list-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 1rem 0;
+  line-height: 1;
+}
+
+.double-list .double-list-item:first-of-type {
+  margin-top: 0;
+}
+
+.double-list .double-list-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.double-list .double-list-item h4 {
+  margin: 0 0 0.5rem 0;
+  font-weight: 700;
+}
+
+.double-list .double-list-item .double-list-item-level {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.double-list .double-list-item .double-list-item-level .double-list-item-level-item p {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.double-list .double-list-item .double-list-item-level .double-list-item-level-item p::before {
+  content: "•";
+  display: inline-flex;
+  position: absolute;
+  top: -12px;
+  left: -19px;
+  margin: 0;
+  color: var(--primary-color);
+  font-size: 27px;
+}

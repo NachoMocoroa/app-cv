@@ -1,0 +1,32 @@
+.body-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  color: var(--white-light-color);
+}
+
+@media all and (min-width: 600px) {
+
+  .body-content  {
+    max-width: var(--sm-max-width);
+  }
+}
+
+@media all and (min-width: 900px) {
+
+  .body-content  {
+    max-width: var(--md-max-width);
+    flex-direction: row;
+  }
+}
+
+@media all and (min-width: 1200px) {
+
+  .body-content  {
+    max-width: var(--lg-max-width);
+  }
+}

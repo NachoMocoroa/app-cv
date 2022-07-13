@@ -1,0 +1,25 @@
+.info-section {
+  position: -webkit-sticky;
+  position: sticky;
+  top: calc(var(--header-height) + 1rem);
+  width: 100%;
+  margin: 0;
+  padding: 1rem 2rem;
+  color: var(--white-light-color);
+  background-color: var(--primary-color);
+  z-index: 1;
+}
+
+@media all and (min-width: 900px) {
+
+  .info-section {
+    max-width: var(--info-width-medium);
+  }
+}
+
+@media all and (min-width: 1200px) {
+
+  .info-section {
+    max-width: var(--info-width-large);
+  }
+}

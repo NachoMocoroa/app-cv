@@ -1,0 +1,83 @@
+.box-info {
+  font-size: 11px;
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0 0.5rem;
+}
+
+.box-info-heading {
+  margin: 0 0 1rem 0;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.slogan {
+  margin: 0 0 1rem 0;
+  font-style: italic;
+  line-height: 1.25;
+}
+
+@media all and (min-width: 450px) {
+
+  .box-info {
+    font-size: unset;
+  }
+
+  .box-info:nth-child(2) {
+    width: calc(50% - 0.5rem);
+    margin-right: 0.5rem;
+  }
+  
+  .box-info:nth-child(2)::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background-color: var(--white);
+  }
+  
+  .box-info:nth-child(3) {
+    position: relative;
+    width: calc(50% - 0.5rem);
+    margin-left: 0.5rem;
+  }
+}
+
+@media all and (min-width: 600px) {
+  
+  .box-info:nth-child(2)::after {
+    right: 10%;
+  }
+}
+
+@media all and (min-width: 900px) {
+
+  .box-info {
+    margin: 0 0 1rem 0;
+    padding: 0 0.75rem;
+  }
+
+  .box-info:nth-child(2),
+  .box-info:nth-child(3) {
+    width: 100%;
+    margin: 0 0 1rem 0;
+  }
+
+  .box-info:nth-child(2)::after {
+    content: unset;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  
+  .box-info {
+    margin: 0 0 2rem 0;
+    padding: 0 1rem;
+  }
+}

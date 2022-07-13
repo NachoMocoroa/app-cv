@@ -1,0 +1,17 @@
+.box-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+@media all and (min-width: 900px) {
+
+  .box-header {
+    flex-direction: row;
+  }
+
+  .box-header h2 {
+    margin-left: 2rem;
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "information": {
+    "name": "Ignacio Mocoroa Perales",
+    "position": "Front-End",
+    "slogan": "Perfil avanzado de maquetación con conocimientos intermedios en JavaScript, React, Vue y JQuery.",
+    "personal": {
+      "value": "Información personal",
+      "birthDate": {
+        "text": "Fecha de nacimiento:",
+        "value": "06/03/1977"
+      },
+      "nationality": {
+        "text": "Nacionalidad:",
+        "value": "Española"
+      }
+    },
+    "contact": {
+      "value": "Contacto",
+      "email": {
+        "text": "Email:",
+        "value": "nachomocoroa@gmail.com"
+      },
+      "phone": {
+        "text": "Teléfono:",
+        "value": "659 26 23 28"
+      }
+    },
+    "github": {
+      "value": "https://github.com/NachoMocoroa"
+    }
+  },
+  "body": {
+    "profile": {
+      "text": "Perfil:",
+      "value": "<p>Inicios en el campo del e-Learning con <span className='f-b'>Flash</span> y posterior evolución al desarrollo y la maquetación de web sites a través de la adaptación a los estándares <span className='f-b'>HTML5</span> y el uso de <span className='f-b'>Responsive</span> para diferentes dispositivos con <span className='f-b'>CSS3</span> usando <span className='f-b'>SASS</span>, <span className='f-b'>LESS</span>, <span className='f-b'>Bootstrap</span>, <span className='f-b'>Tailwind</span> y complementado con programación en <span className='f-b'>JavaScript</span> mediante el uso de diferentes librerías como <span className='f-b'>React</span>, <span className='f-b'>Vue</span>, <span className='f-b'>Stencil</span> y <span className='f-b'>JQuery</span> y el consumo de endpoints <span className='f-b'>API REST</span> para la creación de componentes y vistas/ pantallas en aplicaciones.</p>"
+    },
+    "technologies": {
+      "layout": {
+        "value": "Maquetación",
+        "items": [
+          {
+            "tech": "HTML5",
+            "value": "80%"
+          },
+          {
+            "tech": "CSS",
+            "value": "80%"
+          },
+          {
+            "tech": "SASS",
+            "value": "80%"
+          },
+          {
+            "tech": "Bootstrap",
+            "value": "70%"
+          },
+          {
+            "tech": "Tailwind",
+            "value": "70%"
+          }
+        ]
+      },
+      "programming": {
+        "value": "Programación",
+        "items": [
+          {
+            "tech": "JavaScript",
+            "value": "70%"
+          },
+          {
+            "tech": "React",
+            "value": "70%"
+          },
+          {
+            "tech": "Vue",
+            "value": "50%"
+          },
+          {
+            "tech": "JQuery",
+            "value": "60%"
+          }
+        ]
+      }
+    },
+    "jobs": {
+      "value": "Experiencia profesional",
+      "items": [
+        {
+          "date": "Sep. 2021 – Dic. 2021",
+          "position": "Front-end",
+          "company": "PSS",
+          "value": "<p>Desarrollo y maquetación con <span className='f-b'>React/ Material-UI/ SASS</span>.</p>"
+        },
+        {
+          "date": "Mar. 2021 – Sep. 2021",
+          "position": "Front-end",
+          "company": "Optimissa",
+          "value": "<p>Desarrollo y maquetación con <span className='f-b'>React/ Material-UI/ SASS</span>.</p>"
+        },
+        {
+          "date": "Jun. 2020 – Nov. 2020",
+          "position": "Front-end",
+          "company": "SunMedia",
+          "value": "<p>Desarrollo y maquetación, consumo de endpoints <span className='f-b'>API REST</span>, repositorio de componentes con <span className='f-b'>Vue/ Tailwind</span>, catálogo de los mismos con <span className='f-b'>Storybook</span>, testeo con <span className='f-b'>Jest/ Enzyme</span>.</p>"
+        },
+        {
+          "date": "Jul. 2019 – Abr. 2020",
+          "position": "Front-end",
+          "company": "Paradigma Digital",
+          "value": "<p>Desarrollo y maquetación para Guía de componentes en <span className='f-b'>StencilJS/ SASS</span>, testeo con <span className='f-b'>Jest/ Enzyme</span> e integración en aplicación con <span className='f-b'>React</span> mediante llamadas <span className='f-b'>API REST</span>.</p>"
+        },
+        {
+          "date": "May. 2018 - Jun. 2019",
+          "position": "Front-end",
+          "company": "Sopra Steria",
+          "value": "<p>Desarrollo y maquetación con <span className='f-b'>Vue/ SASS</span>, testeo con <span className='f-b'>Jest/ Enzyme</span> y llamadas <span className='f-b'>API REST</span>.</p>"
+        },
+        {
+          "date": "Ene. 2013 - May. 2018",
+          "position": "Front-end",
+          "company": "Vector ITC Group",
+          "value": "<p><span className='f-b'>Tecnologías:</span> HTML5, CSS3, SASS, LESS, Bootstrap, Javascript, React, Vue, jQuery, Angular, Flash/ ActionScript, SCORM 1.2.</p>"
+        },
+        {
+          "date": "Jun. 2010 - Ene. 2013",
+          "position": "Front-end",
+          "company": "DATA ADVISER",
+          "value": "<p>Proyectos e-Learning con <span className='f-b'>Flash/ ActionScript</span>. Desarrollo y maquetación de contenidos, gestión LMS y creación de paquete SCORM 1.2.</p>"
+        }
+      ]
+    },
+    "studies": {
+      "value": "Formación académica",
+      "items": [
+        {
+          "value": "Titulaciones académicas",
+          "items": [
+            { "value": "Técnico Superior en Diseño y Producción Editorial en IES Islas Filipinas (2001–2003)"},
+            { "value": "EGB, BUP, COU y Selectividad en colegio SEK (1983–1995)"}
+          ]
+        },
+        {
+          "value": "Formación On-line (2016–2022)",
+          "items": [
+            { "value": "Master en Frameworks JavaScript: Aprende Angular, React, Vue."},
+            { "value": "React: De cero a experto (Hooks y MERN)"},
+            { "value": "Vuejs 2 + Vuex con TypeScript."},
+            { "value": "React JS - Curso de introducción desde cero y primeros pasos."},
+            { "value": "Primeros pasos con Vue.js | Vue en ejercicios."},
+            { "value": "Angular 5 y TypeScript."},
+            { "value": "Modern JavaScript from the Beginning."},
+            { "value": "JavaScript ES6."},
+            { "value": "Advanced and Object Oriented JavaScript and ES6."},
+            { "value": "CSS Flexbox: Learn and Build Responsive Websites in 2020."},
+            { "value": "CSS - The Complete Guide 2020 (incl. Flexbox, Grid and Sass)"},
+            { "value": "Diseño responsivo con cajas flexibles CSS3."}
+          ]
+        },
+        {
+          "value": "Formación Presencial (2007-2014)",
+          "items": [
+            { "value": "“Diseño Web Responsive con HTML5, CSS3 y JQuery” en CICE (2013-2014)"},
+            { "value": "“Desarrollo de sitios web con Ajax, XML y ActionScript 3” en CICE (2009-2010)"},
+            { "value": "“Desarrollo de web dinámicas con Dreamweaver y CSS” en Creaformación (2010)"},
+            { "value": "“Diseño Gráfico y Web” en ESDIP (2007 – 2008)"}
+          ]
+        }
+      ]
+    },
+    "languages": {
+      "value": "Idiomas",
+      "items": [
+        {
+          "text": "Español:",
+          "value": "Nativo"
+        },
+        {
+          "text": "Inglés:",
+          "value": "Básico"
+        }
+      ]
+    }
+  }
+}

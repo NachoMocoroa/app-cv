@@ -1,0 +1,94 @@
+.list {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.list .list-item {
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin: 1rem 0;
+  line-height: 1;
+}
+
+.list .list-item:first-of-type {
+  margin-top: 0;
+}
+
+.list .list-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.list .list-item .list-item-div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 0 0 6rem;
+  padding: 0 0 0 2rem;
+}
+
+.list .list-item .list-item-div::before {
+  content: "•";
+  display: inline-flex;
+  position: absolute;
+  top: -13px;
+  left: 0;
+  margin: 0;
+  color: var(--primary-color);
+  font-size: 36px;
+}
+
+.list .list-item .list-item-div::after {
+  content: "";
+  display: inline-flex;
+  position: absolute;
+  left: 7px;
+  top: 14px;
+  width: 1px;
+  height: 95%;
+  background-color: var(--gray-medium);
+}
+
+.list .list-item:last-of-type .list-item-div::after {
+  content: unset;
+}
+
+.list .list-item .list-item-div .list-item-div-date {
+  position: absolute;
+  left: -60px;
+  top: 0;
+  display: inline-flex;
+  width: 60px;
+  margin: 0;
+  color: var(--gray-medium);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.list .list-item .list-item-div .list-item-div-position {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  font-size: 1.25rem;
+  color: var(--primary-color);
+}
+
+.list .list-item .list-item-div .list-item-div-company {
+  display: inline-block;
+  width: 100%;
+  margin: 0.15rem 0 0.25rem 0;
+  font-size: 1.75rem;
+  color: var(--gray-medium);
+}
+
+.list .list-item .list-item-div p {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}

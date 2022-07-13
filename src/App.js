@@ -1,23 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import { useRef } from 'react';
+import useWindowSize from './hooks/useWindowSize';
+import dataJson from './data/data.json';
+import './styles/app.css';
+
+import HeaderApp from './layout/HeaderApp/HeaderApp';
+import BodyApp from './layout/BodyApp/BodyApp';
+import AsideApp from './layout/AsideApp/AsideApp';
+import MainApp from './layout/MainApp/MainApp';
 
 function App() {
+
+  const dataApp = dataJson || null;
+  const headerWrapper = useRef();
+  const mainElement = useRef();
+  const { width, height } = useWindowSize();
+  
+  const getHeaderWrapperHeight = () => {
+    return (width && headerWrapper?.current?.offsetHeight) ? 
+      `${headerWrapper.current.offsetHeight - 1}px` : null;
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="wrapper">
+      {dataApp ? 
+        (<>
+          <HeaderApp headerRef={headerWrapper} />
+          <BodyApp paddingTopValue={getHeaderWrapperHeight()}>
+            <AsideApp 
+              screenWidth={width} 
+              screenHeight={height} 
+              topValue={getHeaderWrapperHeight()} 
+              githubUrl={dataApp.information.github} 
+            />
+            <MainApp 
+              mainRef={mainElement} 
+              data={dataApp.body} 
+            />
+          </BodyApp>
+        </>)
+        :
+        (<p>No data loaded.</p>)    
+      }
     </div>
   );
 }

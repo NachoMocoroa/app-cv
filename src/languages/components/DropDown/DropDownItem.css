@@ -1,0 +1,23 @@
+.dropDown-listItem {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 0.75em;
+    font-size: 1.3rem;
+    color: #666666;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.dropDown-listItem:last-child {
+    margin-bottom: 0;
+}
+
+.dropDown-listItem img {
+    margin-right: 0.5rem;
+}
+
+.dropDown-listItem span {
+    line-height: 1.2;
+}

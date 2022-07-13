@@ -1,0 +1,17 @@
+:root {
+    --header-height: 5rem;
+    --sm-max-width: 600px;
+    --md-max-width: 900px;
+    --lg-max-width: 1200px;
+    --xl-max-width: 1536px;
+    --info-width-medium: 300px;
+    --info-width-large: 350px;
+    --primary-color: #0096FF;
+    --white: #FFFFFF;
+    --white-light-color: #F9F6EE;
+    --black: #000000;
+    --gray-dark: #333333;
+    --gray-medium: #666666;
+    --gray-light: #DEDEDE;
+    --link-color: #FFE400;
+}

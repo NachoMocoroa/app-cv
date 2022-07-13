@@ -1,0 +1,39 @@
+#root {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: var(--black);
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: var(--black);
+    font-weight: 400;
+}
+
+a, 
+a:link, 
+a:visited, 
+a:hover, 
+a:active {
+    color: var(--link-color);
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0 0 0.5rem 0;
+    line-height: 1;
+}
+
+.f-b {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
